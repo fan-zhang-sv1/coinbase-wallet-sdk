@@ -12,7 +12,7 @@
   - [Signing Commits](#signing-commits)
 - [Coding Conventions](#coding-conventions)
   - [Git Commit Messages](#git-commit-messages)
-
+ 
 ## How to Contribute
 
 🎉 First off, thank you for considering contributing to the Coinbase Wallet SDK! 🎉
