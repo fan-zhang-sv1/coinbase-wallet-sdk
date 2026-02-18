@@ -56,7 +56,7 @@
 				"noUselessUndefinedInitialization": "error",
 				"noWith": "error",
 				"useArrowFunction": "warn"
-			},
+			}, 
 			"correctness": {
 				"noConstAssign": "error",
 				"noConstantCondition": "error",
