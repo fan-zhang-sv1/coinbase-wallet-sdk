@@ -98,12 +98,3 @@
      setMessage(message);
    });
    ```
-
-### Developing locally and running the test dapp
-
-- The Coinbase Wallet SDK test dapp can be viewed here https://coinbase.github.io/coinbase-wallet-sdk/.
-- To run it locally follow these steps:
-
-  1. Fork this repo and clone it
-  1. From the root dir run `yarn install`
-  1. From the root dir run `yarn dev`
