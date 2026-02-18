@@ -31,8 +31,6 @@
 
 ### Upgrading Wallet SDK
 
-> Migrating from v3 to v4? Please see our [v4 migration guide](https://www.smartwallet.dev/sdk/v3-to-v4-changes) for a full list of breaking changes.
-
 1. Update to latest:
 
    ```shell
